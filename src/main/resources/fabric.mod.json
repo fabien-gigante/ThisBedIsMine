@@ -6,8 +6,8 @@
 	"description": "Prevents villagers from sleeping in players beds",
 	"authors": [ "Fabien Gigante"],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/fabien-gigante/ThisBedIsMine",
+		"sources": "https://github.com/fabien-gigante/ThisBedIsMine"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/this-bed-is-mine/icon.png",
