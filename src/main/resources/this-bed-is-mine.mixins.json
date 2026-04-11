@@ -3,7 +3,7 @@
 	"package": "com.fabien_gigante.this_bed_is_mine.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
-		"VillagerGoalPackagesMixin", "SleepInBedMixin"
+		"VillagerGoalPackagesMixin", "SleepInBedMixin", "ServerPlayerMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

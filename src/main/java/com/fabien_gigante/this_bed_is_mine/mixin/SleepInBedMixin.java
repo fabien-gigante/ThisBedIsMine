@@ -15,6 +15,6 @@ import com.fabien_gigante.this_bed_is_mine.ThisBedIsMine;
 public class SleepInBedMixin {
     @ModifyReturnValue(method = "checkExtraStartConditions", at = @At("RETURN"))
     private boolean checkExtraStartConditions(boolean original, ServerLevel level, LivingEntity body) {
-        return original && !ThisBedIsMine.isPlayerRespawnPos(level, body.getBrain().getMemory(MemoryModuleType.HOME).get());
+        return original && !ThisBedIsMine.isPlayerRespawn(level, body.getBrain().getMemory(MemoryModuleType.HOME).get());
     }
 }
