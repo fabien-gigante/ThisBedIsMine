@@ -3,7 +3,9 @@
 	"package": "com.fabien_gigante.this_bed_is_mine.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
-		"VillagerGoalPackagesMixin", "SleepInBedMixin", "ServerPlayerMixin", "NearestBedSensorMixin"
+		"ServerPlayerMixin",
+		"VillagerGoalPackagesMixin", "SleepInBedMixin", 
+		"NearestBedSensorMixin", "VillagerMakeLoveMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
